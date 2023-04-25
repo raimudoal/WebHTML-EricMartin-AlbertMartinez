@@ -1,0 +1,23 @@
+body
+{
+    background-image: url("../images/booksBG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info{
+    margin: auto;
+    margin-top: 1%;
+    width: 50%;
+    border: 3px solid;
+    padding: 10px;
+}
+
+img{
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 25%;
+    scale: 1.8 1.8;
+transform: rotate(270deg)
+}
