@@ -11,8 +11,8 @@ body {
     height:100%;
     width:200px;
     position:fixed!important;
-    z-index:1
-    ;overflow:auto
+    z-index:1;
+    overflow:auto;
 }
 .sidebar a
 {
