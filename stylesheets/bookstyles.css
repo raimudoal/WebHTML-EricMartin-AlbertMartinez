@@ -5,19 +5,28 @@ body
     background-size: cover;
 }
 
-.info{
+.manuscript{
+    position:relative;
+    text-align: center;
     margin: auto;
     margin-top: 1%;
     width: 50%;
-    border: 3px solid;
     padding: 10px;
 }
 
 img{
-    display:block;
-    margin-left: auto;
-    margin-right:auto;
-    margin-top: 25%;
-    scale: 1.8 1.8;
-transform: rotate(270deg)
+    margin-top:5%;
+    scale: 1.2 1.2;
+    padding-left: 5%;
+}
+
+.text{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: fit-content;
+    block-size: fit-content;
+    text-align: justify;
+    text-justify: inter-word;
 }
