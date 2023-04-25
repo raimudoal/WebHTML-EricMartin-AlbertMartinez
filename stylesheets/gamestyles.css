@@ -1,6 +1,26 @@
-body
-{
+
+body, html {
+    height: 100%;
+  }
+  
+.parallax {
+    /* The image used */
     background-image: url("../images/bgGame.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+.block
+{
+    height: 100%;
+    background-color: rgb(13, 64, 127);
+    color: rgb(251,248,246);
+    font-family: 'Poppins',sans-serif;
 }
