@@ -7,11 +7,10 @@ body
 
 .logo
 {
-    margin: 0;
+  margin: 0;
   position: absolute;
   top: 38%;
   left: 25%;
-
   transition: all .3s ease-in-out; 
 }
 
