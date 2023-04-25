@@ -22,11 +22,15 @@ img{
 
 .text{
     position: absolute;
-    top: 15%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+p{
     width: fit-content;
     block-size: fit-content;
     text-align: justify;
     text-justify: inter-word;
+    margin: 5%;
 }
