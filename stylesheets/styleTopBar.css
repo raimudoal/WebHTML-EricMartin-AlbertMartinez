@@ -15,14 +15,23 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    
   }
   
   .topbar a:hover {
+    transition: all .3s ease-in-out;
     background-color: #ddd;
     color: black;
   }
   
   .topbar a.active {
+    transition: all .3s ease-in-out;
     background-color: crimson;
+    color: white;
+  }
+
+  .topbar a.active:hover {
+    transition: all .3s ease-in-out;
+    background-color: rgb(136, 14, 38);
     color: white;
   }

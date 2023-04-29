@@ -10,7 +10,9 @@ body {
   
   .column {
     float: left;
-    width: 25%;
+    width: 30%;
+    margin-top: 3%;
+    margin-left: 15%;
     margin-bottom: 16px;
     padding: 0 8px;
   }
@@ -55,4 +57,15 @@ body {
   
   .button:hover {
     background-color: #555;
+  }
+
+  @media (max-width: 1000px) {
+    .column {
+      float: left;
+      width: 50%;
+      margin-top: 3%;
+      margin-left: 25%;
+      margin-bottom: 16px;
+      padding: 0 8px;
+    }
   }

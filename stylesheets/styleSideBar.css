@@ -9,10 +9,9 @@ body {
     overflow: hidden;
     background-color: rgb(207, 105, 105);
     height:100%;
-    width:200px;
     position:fixed!important;
     z-index:1;
-    overflow:auto;
+    max-width: 10%;
 }
 .sidebar a
 {
@@ -27,6 +26,29 @@ body {
 
 .sidebar a:hover
 {
+    transition: all .1s ease-in-out;
     background-color: rgb(126, 62, 62);
     color: rgb(192, 192, 192);
 }
+
+@media (max-width: 1070px) {
+    .sidebar {
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+        position: relative;
+      }
+      .sidebar a
+      {
+        max-width: 100%;
+        width: auto;
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      
+      div.content {margin-left: 0;}
+  }
