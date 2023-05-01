@@ -2,6 +2,17 @@
 body, html {
     height: 100%;
   }
+
+  .title
+  {
+    position: absolute;
+    font-family: 'Russo One', sans-serif;
+    font-size: 7vw;
+    color: white;
+    margin-left: 25%;
+    text-shadow: -5px -5px 0 #0d407f, 10px -10px 0 #0a2d58, -5px 5px 0 #0d407f, 5px 5px 0 #0d407f;
+    margin-top: 35vh;
+  }
   
 .parallax {
     /* The image used */
@@ -16,6 +27,8 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+
 
 .block
 {
