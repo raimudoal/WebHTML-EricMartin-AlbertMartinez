@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
   }
 
 
@@ -51,4 +52,10 @@ body {
       }
       
       div.content {margin-left: 0;}
+  }
+
+  p{
+  text-align: justify;
+  margin: 1%;
+  margin-right: 2%;
   }
