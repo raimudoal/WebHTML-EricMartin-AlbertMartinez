@@ -6,11 +6,11 @@ body
 
 
 img{
-    scale: 1.2 1;
     padding-left: 5%;
     display: block;
     margin-left:auto;
     margin-right:auto;
+    width: 65%;
     max-width:80vw;
 }
 
@@ -18,7 +18,7 @@ img{
     position: absolute;
     font-size: 1.2vw;
     font-size-adjust: none;
-    top: 50%;
+    top: 60vh;
     left: 45%;
     transform: translate(-50%, -50%);
     margin: 5%;
@@ -28,5 +28,10 @@ img{
     block-size: fit-content;
     text-align: justify;
     text-justify: inter-word;
-
 }
+
+@media (max-width: 820px) {
+    .text {
+        top: 30vh;
+      }
+    }
