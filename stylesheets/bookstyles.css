@@ -1,36 +1,32 @@
 body
 {
     background-image: url("../images/booksBG.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
 }
 
-.manuscript{
-    position:relative;
-    text-align: center;
-    margin: auto;
-    margin-top: 1%;
-    width: 50%;
-    padding: 10px;
-}
 
 img{
-    margin-top:5%;
-    scale: 1.2 1.2;
+    scale: 1.2 1;
     padding-left: 5%;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    max-width:80vw;
 }
 
 .text{
     position: absolute;
-    top: 30%;
-    left: 50%;
+    font-size: 1.2vw;
+    font-size-adjust: none;
+    top: 50%;
+    left: 45%;
     transform: translate(-50%, -50%);
-}
-
-p{
-    width: fit-content;
+    margin: 5%;
+    padding: 5%;
+    margin-top: 1vh;
+    max-width: fit-content;
     block-size: fit-content;
     text-align: justify;
     text-justify: inter-word;
-    margin: 5%;
+
 }
