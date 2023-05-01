@@ -13,6 +13,7 @@ body {
     position:fixed!important;
     z-index:1;
     max-width: 10%;
+    margin-top: 48px;
 }
 .sidebar a
 {
@@ -58,4 +59,5 @@ body {
   text-align: justify;
   margin: 1%;
   margin-right: 2%;
+  margin-top: 2%;
   }
