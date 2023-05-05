@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\html",
+    "\\stylesheets"
   ],
-  "SelectedNode": "\\C:\\Users\\Usuario\\Desktop\\EMA\\Bases de dades i Llenguatge de Marques\\Llenguatge de Marques\\Pagina web",
+  "SelectedNode": "\\stylesheets\\styles.css",
   "PreviewInSolutionExplorer": false
 }
