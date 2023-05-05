@@ -1,9 +1,7 @@
 
-body
-{
+body {
     background-image: url("../images/background.png");
-    background-size:auto;
-
+    background-size: auto;
 }
 
 .logo
