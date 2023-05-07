@@ -13,6 +13,8 @@ body {
     z-index:3;
 
   }
+
+
   
   .topbar a {
     float: left;
@@ -46,5 +48,10 @@ body {
     .topbar a {
 
       font-size: 14.6px;
+
     }
+    .text
+      {
+        padding-top: 10%;
+      }
   }

@@ -39,7 +39,7 @@ body {
         width: 100%;
         height: auto;
         position: relative;
-        margin-top: 11%;
+        margin-top: 44px;
       }
       .sidebar a
       {
@@ -51,6 +51,11 @@ body {
         padding: 14px 16px;
         text-decoration: none;
         font-size: 14.6px;
+      }
+
+      .text
+      {
+        padding-top: 7%;
       }
       
       div.content {margin-left: 0;}
