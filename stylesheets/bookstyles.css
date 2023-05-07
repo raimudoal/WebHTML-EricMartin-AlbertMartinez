@@ -39,9 +39,3 @@ img{
     font-family: "coolFont";
     src: url("../")
 }
-
-@media (max-width: 820px) {
-    .text {
-        top: 30vh;
-      }
-    }
