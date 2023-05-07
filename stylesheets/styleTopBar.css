@@ -41,3 +41,10 @@ body {
     background-color: rgb(136, 14, 38);
     color: white;
   }
+
+  @media (max-width: 1000px) {
+    .topbar a {
+
+      font-size: 14.6px;
+    }
+  }
