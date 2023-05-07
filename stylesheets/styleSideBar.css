@@ -33,6 +33,13 @@ body {
     color: rgb(192, 192, 192);
 }
 
+p{
+  text-align: justify;
+  margin: 1%;
+  margin-right: 2%;
+  margin-top: 2%;
+  }
+
 @media (max-width: 1070px) {
     .sidebar {
         max-width: 100%;
@@ -57,12 +64,12 @@ body {
         padding-top: 7%;
       }
       
+      
       div.content {margin-left: 0;}
   }
-
-  p{
-  text-align: justify;
-  margin: 1%;
-  margin-right: 2%;
-  margin-top: 2%;
+  @media (max-width: 614px) {
+    .text
+      {
+        padding-top: 17%;
+      }
   }
