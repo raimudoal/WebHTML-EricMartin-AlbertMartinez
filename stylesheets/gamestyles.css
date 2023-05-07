@@ -11,7 +11,7 @@ body, html {
     color: white;
     margin-left: 25%;
     text-shadow: -5px -5px 0 #0d407f, 10px -10px 0 #0a2d58, -5px 5px 0 #0d407f, 5px 5px 0 #0d407f;
-    margin-top: 35vh;
+    margin-top: 38vh;
   }
   
 .parallax {
@@ -39,6 +39,14 @@ body, html {
     font-family: 'Poppins',sans-serif;
 }
 
+.block2
+{
+  min-height: 100%;
+    max-height: 400%;
+    background-color: rgb(15, 51, 7);
+    color: rgb(251,248,246);
+    font-family: 'Poppins',sans-serif;
+}
 
 body {
   font-family: Arial, Helvetica, sans-serif;

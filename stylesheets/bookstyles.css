@@ -1,7 +1,9 @@
 body
 {
     background-image: url("../images/booksBG.jpg");
-    background-size: auto;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat:no-repeat ;
 }
 
 
