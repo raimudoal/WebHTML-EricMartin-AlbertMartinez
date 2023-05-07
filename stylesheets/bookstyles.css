@@ -6,16 +6,6 @@ body
     background-repeat:no-repeat ;
 }
 
-
-img{
-    padding-left: 5%;
-    display: block;
-    margin-left:auto;
-    margin-right:auto;
-    width: 65%;
-    max-width:80vw;
-}
-
 .text{
     color: white;
     position: absolute;
@@ -26,6 +16,7 @@ img{
     left: 45%;
     transform: translate(-50%, -50%);
     margin: 5%;
+    margin-top: 5%;
     padding: 5%;
     margin-top: 1vh;
     max-width: fit-content;
@@ -34,4 +25,24 @@ img{
     text-justify: inter-word;
     border: 3px solid;
     background-color: darkgreen;
+}
+
+@media (max-width: 1300px)
+{
+    .text
+    {
+        margin-top: 30%;
+        font-size: 2vw;
+    }
+    
+}
+
+@media (max-width: 700px)
+{
+    .text
+    {
+        margin-top: 75%;
+        font-size: 3vw;
+    }
+    
 }
