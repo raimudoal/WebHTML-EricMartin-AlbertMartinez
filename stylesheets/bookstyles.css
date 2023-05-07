@@ -35,8 +35,3 @@ img{
     border: 3px solid;
     background-color: darkgreen;
 }
-
-@font-face{
-    font-family: "coolFont";
-    src: url("../")
-}
