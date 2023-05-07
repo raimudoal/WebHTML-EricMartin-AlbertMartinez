@@ -62,9 +62,10 @@ body {
 
   @media (max-width: 1000px) {
     .column {
+
       float: left;
       width: 50%;
-      margin-top: 3%;
+      margin-top: 25%;
       margin-left: 25%;
       margin-bottom: 16px;
       padding: 0 8px;
