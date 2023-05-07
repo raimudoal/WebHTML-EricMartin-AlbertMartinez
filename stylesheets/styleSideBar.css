@@ -45,12 +45,10 @@ p{
         max-width: 100%;
         width: 100%;
         height: auto;
-        position: relative;
         margin-top: 44px;
       }
       .sidebar a
       {
-        max-width: 100%;
         width: auto;
         float: left;
         color: #f2f2f2;
@@ -59,17 +57,20 @@ p{
         text-decoration: none;
         font-size: 14.6px;
       }
+      img
+      {
+        max-width: 100%;
+      }
       .text
       {
         padding-top: 7%;
       }
-      
-      
       div.content {margin-left: 0;}
   }
   @media (max-width: 614px) {
+
     .text
       {
-        padding-top: 17%;
+        padding-top: 20%;
       }
   }
