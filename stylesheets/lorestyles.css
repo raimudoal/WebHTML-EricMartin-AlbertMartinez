@@ -7,3 +7,39 @@ img{
     margin-right: auto;
     width: 95%;
 }
+
+p{
+    text-align: justify;
+    margin: 1%;
+    margin-right: 2%;
+    margin-top: 2%;
+}
+
+.text
+{
+    margin-left: 11%
+}
+
+
+@media (max-width: 1070px) {
+.text
+{
+    margin-left: 3%;
+}
+img
+{
+  max-width: 100%;
+}
+.text
+{
+  padding-top: 7%;
+}
+div.content {margin-left: 0;}
+}
+
+@media (max-width: 614px) {
+.text
+{
+  padding-top: 20%;
+}
+}

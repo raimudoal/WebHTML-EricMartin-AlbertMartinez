@@ -57,20 +57,4 @@ p{
         text-decoration: none;
         font-size: 14.6px;
       }
-      img
-      {
-        max-width: 100%;
-      }
-      .text
-      {
-        padding-top: 7%;
-      }
-      div.content {margin-left: 0;}
-  }
-  @media (max-width: 614px) {
-
-    .text
-      {
-        padding-top: 20%;
-      }
-  }
+    }
